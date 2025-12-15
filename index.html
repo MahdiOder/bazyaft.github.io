@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Main.css" rel="stylesheet">
+
+    <link rel="icon" href="xsdfsdf.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="item">
+                <ul id="Navbar">
+                    <li>
+                        <img width="50px" height="35px" src="icons8-home-48.png" alt="Home">
+                    </li>
+                    <li class="text-color">
+                        صفحه اصلی
+                    </li>
+                    <li class="text-color">
+                        وبلاگ
+                    </li>
+                    <li class="text-color">
+                        درباره ما
+                    </li>
+                    <li class="text-color">
+                        تماس با ما
+                    </li>
+                    <li class="text-color">
+                        <img width="50px" height="35px" src="icons8-bin-64.png" alt="Home">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <div id="Box">
+
+        <div class="div-1">
+
+            <div class="i-1">
+                <span>کد ملی :</span>
+                <input type="text">
+            </div>
+            <div class="i-2">
+                <span>کد شناسایی :</span>
+                <input class="firstName" type="text">
+            </div>
+            <button onclick="openTabelBox()" id="add-tabel">ثبت</button>
+        </div>
+        <!-- <div>
+            
+        </div> -->
+
+
+    </div>
+    <!-- Tabel -->
+    <section id="library-table-section">
+        <div id="library-table-box">
+            <table id="result-tabel">
+                <thead>
+                    <tr>
+                        <th class="width-th">خانواده و سرپرست </th>
+                        <th class="width-th color1">زباله خشک</th>
+                        <th class="width-th color2">زباله تر</th>
+                        <th class="width-th color3">زباله پلاستیکی</th>
+                        <th class="width-th2">جمع امتیازات و تفکیک ها</th>
+                    </tr>
+                    <tr>
+                        <td>خانواده حسنی</td>
+                        <td class="color1"> 3(کیلوگرم)</td>
+                        <td class="color2"> 2(کیلوگرم)</td>
+                        <td class="color3"> 5(کیلوگرم)</td>
+                        <td> 424امتیاز</td>
+                    </tr>
+                    <tr>
+                        <td>:</td>
+                        <td class="color1"></td>
+                        <td class="color2"></td>
+                        <td class="color3"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>:</td>
+                        <td class="color1"></td>
+                        <td class="color2"></td>
+                        <td class="color3"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>:</td>
+                        <td class="color1"></td>
+                        <td class="color2"></td>
+                        <td class="color3"></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id=" result-body">
+
+                </tbody>
+            </table>
+
+            <input onclick="closeTabelBox()" type="button" id="btn-recovery" class="btn btn-red "
+                value="بازگشت  به صفحه اصلی">
+
+        </div>
+    </section>
+
+
+    <script src="Main.js"></script>
+</body>
+
+</html>
